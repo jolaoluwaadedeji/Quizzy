@@ -1,0 +1,45 @@
+main{
+  padding-left: 300px;
+  padding-top: 100px;
+}
+#myDiv{
+  width:400px;
+  height:300px;
+  padding:10px;
+  text-align: center;
+  background-color:beige;
+  margin-left:50px;
+  border:5px rgb(102, 4, 4) dashed;
+}
+
+.button{
+    background-color: rgb(102, 4, 4);
+    color:white;
+    font-size: 18px;
+    margin-left: 10px
+}
+
+h2{
+  margin-left: 200px;
+  color: rgb(102, 4, 4);
+}
+
+#question{
+  color:rgb(102, 4, 4);
+  margin-top: 80px;
+  height: 20px;
+}
+
+#inputValue{
+  padding-left: 100px;
+}
+
+#answerSection{
+  margin-top: 10px;
+}
+
+#submitAnswer{
+  background-color:rgb(102, 4, 4);
+  font-size: 18px;
+  color: white;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <title>
+            Guessing Game
+        </title>
+        <link href="Styles/GuessingGameCss.css" rel="stylesheet"/>
+        <script type="text/javascript" src="Scripts/GuessingGameJS.js"></script>
+    </head>
+    <body onload="init()">
+        <main>
+        <h2>Quizzy</h2>
+        <div id="myDiv">
+            <button class="button" id="questionButton" onclick=GetQuestion()>Click to see Question</button>
+            <button class="button" onclick="Reset()">Reset</button>
+            <div id="question"></div>
+            <input  type="text" id="inputValue"/>
+            <div id="answerSection">
+                <button id="submitAnswer" onclick="SubmitAnswer()">Submit Answer</button>
+                <h4 id="validateAnswer"></h4>
+                <h3 id="score"></h3>
+            </div>
+           
+        </div>
+    </div>
+    </body>
+</html>
